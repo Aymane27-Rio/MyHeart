@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://db:3306/patientdb
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
